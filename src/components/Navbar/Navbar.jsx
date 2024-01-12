@@ -1,4 +1,4 @@
-import logo from '../assets/lws-logo-en.svg'
+import logo from '../../assets/lws-logo-en.svg';
 const Navbar = () => {
   return (
     <nav className='py-6'>
@@ -21,5 +21,5 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
-export default Navbar
+};
+export default Navbar;

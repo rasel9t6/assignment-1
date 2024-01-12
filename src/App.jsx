@@ -1,17 +1,14 @@
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import StudentTable from './components/StudentTable';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
 
+import Footer from './components/Footer/Footer';
+import TableContent from './components/ClassList/TableContent';
 function App() {
   return (
     <div className='bg-[#172227] font-[Inter] text-white'>
       <Navbar />
-
       <Hero />
-
-      <StudentTable />
-
+      <TableContent />
       <Footer />
     </div>
   );
